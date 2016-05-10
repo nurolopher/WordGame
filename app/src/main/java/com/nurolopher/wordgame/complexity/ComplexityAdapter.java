@@ -20,7 +20,7 @@ public class ComplexityAdapter extends RecyclerView.Adapter<ComplexityViewHolder
     @Override
     public ComplexityViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.complexity_row, parent, false);
-        return new ComplexityViewHolder(view);
+        return new ComplexityViewHolder(view,parent.getContext());
     }
 
     @Override

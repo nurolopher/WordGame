@@ -7,6 +7,8 @@ import io.realm.annotations.PrimaryKey;
 import io.realm.annotations.Required;
 
 public class Complexity extends RealmObject implements Serializable {
+    public static final String ITEM_ID = "item_id";
+
     @PrimaryKey
     private int id;
 

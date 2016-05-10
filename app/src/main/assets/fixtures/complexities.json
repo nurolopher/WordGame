@@ -1,10 +1,12 @@
 [
   {
     "id": 1,
-    "title": "ANT"
+    "title": "ANT",
+    "size": 5
   },
   {
     "id": 2,
-    "title": "SPIDER"
+    "title": "SPIDER",
+    "size": 6
   }
 ]
